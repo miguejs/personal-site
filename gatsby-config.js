@@ -5,12 +5,12 @@ module.exports = {
     description: `Hi there! My name is Miguel and I'm a Tech Lead at IcaliaLabs. I often make tutorials on the internet, enjoy building computers, and playing videogames in my free time.`,
     author: `@imikedd`,
     links: [
-      {title: `Twitter`, link: ``},
-      {title: `Linkedin`, link: ``},
-      {title: `Github`, link: ``},
-      {title: `Devto`, link: ``},
-      {title: `Twitch`, link: ``},
-      {title: `Email`, link: ``},
+      {title: `Twitter`, link: `https://twitter.com/imikedd`},
+      {title: `Linkedin`, link: `https://www.linkedin.com/in/imiked/`},
+      {title: `Github`, link: `https://github.com/miguejs`},
+      {title: `Dev.to`, link: `https://dev.to/imiked`},
+      {title: `Twitch`, link: `https://www.twitch.tv/imiked`},
+      {title: `Email`, link: `mailto:imiked.mail@gmail.com`},
     ]
   },
   plugins: [
