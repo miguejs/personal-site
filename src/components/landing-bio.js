@@ -3,7 +3,11 @@ import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import styled from "@emotion/styled"
 import ProfilePicture from "../images/profile-picture.jpg"
-
+const LinkColors = [
+  '#005086',
+  '#2bb2bb',
+  '#87d4c5',
+]
 
 const Container = styled.div`
   text-align: center;
@@ -21,14 +25,12 @@ const Description = styled.p`
   padding: 0;
   margin-bottom: 1rem;
   margin-top: 1rem;
-  font-size: 1rem;
+  text-align: initial;
   line-height: 1.5rem;
-  font-family: "Fira Code";
-  text-align: justify;
 `
 
 const NameHeader = styled.h1`
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   margin-bottom: 1rem;
 `
 const Link = styled.a`
@@ -36,6 +38,10 @@ const Link = styled.a`
   margin-right: 1rem;
   display: inline-block;
   position: relative;
+  :hover {
+    color: ${ LinkColors[Math.floor(Math.random() * LinkColors.length)]};
+    font-weight: bold;
+  }
 `
 const HeaderContainer =  styled.div`
   align-items: center;
